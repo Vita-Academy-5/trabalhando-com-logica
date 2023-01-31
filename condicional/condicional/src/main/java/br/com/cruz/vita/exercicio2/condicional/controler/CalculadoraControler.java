@@ -17,9 +17,6 @@ public class CalculadoraControler {
 	@Autowired
 	private Calculaservice calculaservice;
 	
-	
-	
-	
 	@PostMapping ("/calcular")
 	 public ResponseEntity<String>listaTodos (@RequestBody Calculo calculo ){
 		
